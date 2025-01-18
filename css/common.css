@@ -13,6 +13,10 @@ body {
   line-height: 1.5;
 }
 
+input:focus {
+  outline: none;
+}
+
 
 /* ------------ task-1 ------------ */
 .main-list {
@@ -99,8 +103,9 @@ body {
   color: #2e2f42;
 }
 
-input:focus {
-  outline: none;
+.input:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
 }
 
 .main-text {
@@ -113,3 +118,157 @@ input:focus {
 
 
 /* ------------ task-4 ------------ */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.form-input:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.form-button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.form-button:hover,
+.form-button:focus {
+  background: #6c8cff;
+}
+
+
+/* ------------ task-5 ------------ */
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.color {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change-color:hover,
+.change-color:focus {
+  background: #6c8cff;
+}
+
+
+/* ------------ task-6 ------------ */
+.boxes-form-wrap {
+  display: flex;
+  gap: 16px;
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  margin-bottom: 16px;
+}
+
+.boxes-input {
+  padding-left: 20px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.boxes-input:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.create-boxes {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.create-boxes:hover,
+.create-boxes:focus {
+  background: #6c8cff;
+}
+
+.destroy-boxes {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.destroy-boxes:hover,
+.destroy-boxes:focus {
+  background: #ff7070;
+  ;
+}
+
+.boxes-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  background: #f6f6fe;
+  padding: 32px;
+}
